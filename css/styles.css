@@ -112,7 +112,7 @@ section.section-content {
 	list-style-type: none;
 }
 
-.inline-icons .fab, .fas {
+.inline-icons .fab, .inline-icons .fas {
   background-color: #3e3e3e;
   color: #ffffff;
   width: 25px;
@@ -123,7 +123,25 @@ section.section-content {
   border-radius: 100%;
   display: inline-flex;
 }
-.inline-icons .fab:hover, .fas:hover {
+
+.inline-icons .fab:hover, .inline-icons .fas:hover {
+  color: #fd542e;
+  background-color: #ffffff;
+}
+
+.inline-icons2 .fab, .inline-icons2 .fas {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  width: 23px;
+  height: 23px;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  display: inline-flex;
+}
+
+.inline-icons2 .fab:hover, .inline-icons2 .fas:hover {
   color: #fd542e;
   background-color: #ffffff;
 }
