@@ -98,8 +98,20 @@ section.section-content {
   background-color: #ffffff;
 }
 
-.dev-icons {
-  font-size: 3rem;
+.inline-icons .fab, .fas {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  display: inline-flex;
+}
+.inline-icons .fab:hover, .fas:hover {
+  color: #fd542e;
+  background-color: #ffffff;
 }
 
 
