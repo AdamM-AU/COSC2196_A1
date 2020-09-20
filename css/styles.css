@@ -108,6 +108,10 @@ section.section-content {
 	vertical-align: bottom !important;
 }
 
+.ul-nomarker {
+	list-style-type: none;
+}
+
 .inline-icons .fab, .fas {
   background-color: #3e3e3e;
   color: #ffffff;
