@@ -98,6 +98,16 @@ section.section-content {
   background-color: #ffffff;
 }
 
+.test-results1 {
+	max-height: 450px !important;
+	vertical-align: bottom !important;
+}
+
+.test-results2 {
+	max-height: 250px !important;
+	vertical-align: bottom !important;
+}
+
 .inline-icons .fab, .fas {
   background-color: #3e3e3e;
   color: #ffffff;
